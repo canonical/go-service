@@ -1,0 +1,7 @@
+Go-service provides a helper for long-running services that require
+a mechanism for graceful shutdown. The service starts shutting down
+either when a component stops and returns an error, or a chosen signal
+is received. A service can call registered functions when shutting down.
+
+The package documentation for go-service can be found at
+https://pkg.go.dev/github.com/canonical/go-service.
